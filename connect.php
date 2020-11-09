@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "your mysql user";
-$password = "your mysql user password";
+$password = "your mysql pass";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=RoomSelectBox", $username, $password);
